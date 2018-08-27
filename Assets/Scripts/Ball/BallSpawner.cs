@@ -13,7 +13,7 @@ public class BallSpawner : MonoBehaviour
     void Start()
     {
         if (ballPrefabs.Count == 0)
-            throw new System.Exception("Add some ball prefabs to the list!");
+            throw new Exception("Add some ball prefabs to the list!");
     }
 
     public void SpawnRandomBall()

@@ -31,8 +31,8 @@ public class BallController
     {
         currentBall = ball;
 
-        var x = Random.Range(0.1f, 1);
-        var y = Random.Range(0.1f, 1);
+        var x = Random.Range(-1f, 1f);
+        var y = Random.Range(-1f, 1f);
         Vector2 direction = new Vector2(x, y);
 
         currentBall.OnBallCollisionEnter += OnBallCollides;
