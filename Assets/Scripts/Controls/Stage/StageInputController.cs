@@ -10,6 +10,8 @@ public class StageInputController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
             OnLeftMouseDown();
+        if (Input.GetMouseButtonDown(1))
+            OnRightMouseDown();
     }
 
     private void OnLeftMouseDown()
